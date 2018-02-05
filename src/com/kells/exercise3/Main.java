@@ -5,11 +5,12 @@ public class Main {
     static double temp = 32;
 
     public static void main(String[] args) {
+        input();
 
-        while(temp >= -460){
-            input();
+        while(temp > -460){
             celsius();
             output();
+            input();
         }
     }
 
@@ -26,6 +27,7 @@ public class Main {
     static void output(){
         System.out.println(temp);
     }
+
 
 
 }
